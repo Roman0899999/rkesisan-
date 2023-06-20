@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(237, 66, 66);
+}
+#PartOne{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: brown;
+}
+span{
+    border-radius: 5px;
+    background-color: rgb(117, 31, 31)
+}
+li{
+    background-color: rgb(214, 55, 55);
+    margin-top: 5px;
+    border-radius: 5px;
+}
+ol{
+    list-style-type: none;
+    counter-reset: number;
+    color: tomato;
+    padding: 10px 25px;
+    margin-top: 350px;
+}
+li::before{
+    margin-left: 10px;
+    content: counter(number)". ";
+    counter-increment: number;
+    background-color: rgb(107, 27, 27);
+
+}
