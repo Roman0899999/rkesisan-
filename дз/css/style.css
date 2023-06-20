@@ -1,0 +1,42 @@
+body{
+    width: 1920px;
+    height: 5155px;
+    background-color:#162831 ;
+}
+.menu{
+    width: 1298px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.menu ul{
+    margin-left: 100px;
+    display: flex;
+    list-style: none;
+
+}
+li a{
+    margin-left: 50px;
+    color: beige;
+    text-decoration: none;
+    font-size: 14px;
+}
+.head_logo{
+background-image: url("../img/heads_logo.png");
+position: absolute;
+width: 1296px;
+height: 600px;
+left: 312px;
+top: 140px;
+text-align: center;
+}
+.maps{
+    position: absolute;
+width: 856px;
+height: 604px;
+left: 550px;
+top: 1000px;
+
+}
