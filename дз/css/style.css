@@ -1,42 +1,57 @@
+*{
+    margin-left: 0;
+    padding: 0;
+}
 body{
     width: 1920px;
     height: 5155px;
-    background-color:#162831 ;
+    background-color: #162831;
+    color: white;
 }
-.menu{
+/* меню */
+
+header{
     width: 1298px;
     height: 60px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
+    margin: 30px auto 0 auto;
 }
-.menu ul{
-    margin-left: 100px;
-    display: flex;
-    list-style: none;
+header img{
+    justify-content: flex-start;
+}
+nav{
+    margin: 30px auto 0 auto;
 
 }
-li a{
+nav a{
+    color: white;
     margin-left: 50px;
-    color: beige;
     text-decoration: none;
-    font-size: 14px;
 }
-.head_logo{
-background-image: url("../img/heads_logo.png");
-position: absolute;
-width: 1296px;
-height: 600px;
-left: 312px;
-top: 140px;
-text-align: center; 
+header button{
+    justify-content: flex-end;
+    padding: 9px 15px 9px 15px;
+    color: white;
+    background-color: #018ABE;
+    border-radius: 10px;
 }
-.maps{
-    position: absolute;
-width: 856px;
-height: 604px;
-left: 550px;
-top: 1000px;
 
+/* Основной контент */
+
+/* Укрепление здоровья */
+
+.heads_logo{
+    width: 1296px;
+    height: 600px;
+    background-image: url(../img/heads_logo.png);
+    margin: 140px auto 0 auto;
+}
+.heads_logo h3{
+    text-align: center;
+}
+.heads_logo_cont{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 276px auto 0 auto;
 }
