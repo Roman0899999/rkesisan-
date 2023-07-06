@@ -58,3 +58,31 @@ header button{
     margin-top: 20px;
     font-size: 64px;
 }
+/* .div1{
+    background-image: url(../img/seans\ пары.png);
+    width: 416px;
+    height: 540px;
+    top: 1049px;
+    left: 312px;
+    border-radius: 0px 0px 10px 10px;
+    background-repeat: no-repeat;
+    
+}
+.div2{
+    background-image: url(../img/seans\ пары.png);
+    width: 416px;
+height: 258px;
+top: 1049px;
+left: 752px;
+border-radius: 10px;
+
+
+} */
+.parent{
+    background-image: url(../img/seans.png);
+    width: 1296px;
+height: 699px;
+top: 890px;
+left: 312px;
+
+}
